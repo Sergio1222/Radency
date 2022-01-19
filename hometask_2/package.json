@@ -1,0 +1,48 @@
+{
+  "name": "hometask_2",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Sergio1222/Radency",
+  "description": "",
+  "author": "Sergii",
+  "license": "ISC",
+  "keywords": [
+    "React",
+    "TypeScript",
+    "Redux Toolkit"
+  ],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@reduxjs/toolkit": "1.6.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "7.2.5",
+    "react-scripts": "4.0.3",
+    "redux-devtools-extension": "2.13.9"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.20",
+    "@types/react-dom": "17.0.9",
+    "gh-pages": "^3.2.3",
+    "typescript": "4.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
